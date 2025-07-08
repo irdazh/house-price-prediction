@@ -28,10 +28,12 @@ The final result is deployed in a dashboard using **Streamlit**.
 ## Key Results
 ### Exploratory Data Analysis (EDA)
 Take a look at `notebooks/01_eda.ipynb` for a full discussion. 
-- Some features have lots of missing values which will be dropped before modeling
+- Some features have lots of missing values which will be dropped when modeling
 - Target (`SalePrice`) is right-skewed, log-transform might improve model stability, but who knows? 
 - Only a few numerical features are highly correlated with the target, and some are highly correlated with each other
-- Mutual information shows feature's association with the target, we will use the top 20 as our predictors
+
+![Mutual Info](outputs/eda_mi_scores.png)
+*Mutual information shows feature's association with the target, we will probably use the top 20 as our predictors.*
 
 ![Boxenplot](outputs/eda_interesting_cat.png)
 *Aren't those boxenplots interesting?*
