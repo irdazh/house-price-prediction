@@ -1,0 +1,212 @@
+model,mean_test_MSLE,mean_test_RMSE,mean_fit_time,param_model,params
+XGBRegressor,0.1284240737557411,27196.271484375,0.3115575313568115,"XGBRegressor(base_score=None, booster=None, callbacks=None,
+             colsample_bylevel=None, colsample_bynode=None,
+             colsample_bytree=None, device=None, early_stopping_rounds=None,
+             enable_categorical=False, eval_metric=None, feature_types=None,
+             feature_weights=None, gamma=None, grow_policy=None,
+             importance_type=None, interaction_constraints=None,
+             learning_rate=None, max_bin=None, max_cat_threshold=None,
+             max_cat_to_onehot=None, max_delta_step=None, max_depth=None,
+             max_leaves=None, min_child_weight=None, missing=nan,
+             monotone_constraints=None, multi_strategy=None, n_estimators=None,
+             n_jobs=None, num_parallel_tree=None, ...)","{'model': XGBRegressor(base_score=None, booster=None, callbacks=None,
+             colsample_bylevel=None, colsample_bynode=None,
+             colsample_bytree=None, device=None, early_stopping_rounds=None,
+             enable_categorical=False, eval_metric=None, feature_types=None,
+             feature_weights=None, gamma=None, grow_policy=None,
+             importance_type=None, interaction_constraints=None,
+             learning_rate=None, max_bin=None, max_cat_threshold=None,
+             max_cat_to_onehot=None, max_delta_step=None, max_depth=None,
+             max_leaves=None, min_child_weight=None, missing=nan,
+             monotone_constraints=None, multi_strategy=None, n_estimators=None,
+             n_jobs=None, num_parallel_tree=None, ...), 'model__learning_rate': 0.1, 'model__max_depth': 3, 'model__n_estimators': 200}"
+XGBRegressor,0.13199219703674317,27774.520703125,0.20269980430603027,"XGBRegressor(base_score=None, booster=None, callbacks=None,
+             colsample_bylevel=None, colsample_bynode=None,
+             colsample_bytree=None, device=None, early_stopping_rounds=None,
+             enable_categorical=False, eval_metric=None, feature_types=None,
+             feature_weights=None, gamma=None, grow_policy=None,
+             importance_type=None, interaction_constraints=None,
+             learning_rate=None, max_bin=None, max_cat_threshold=None,
+             max_cat_to_onehot=None, max_delta_step=None, max_depth=None,
+             max_leaves=None, min_child_weight=None, missing=nan,
+             monotone_constraints=None, multi_strategy=None, n_estimators=None,
+             n_jobs=None, num_parallel_tree=None, ...)","{'model': XGBRegressor(base_score=None, booster=None, callbacks=None,
+             colsample_bylevel=None, colsample_bynode=None,
+             colsample_bytree=None, device=None, early_stopping_rounds=None,
+             enable_categorical=False, eval_metric=None, feature_types=None,
+             feature_weights=None, gamma=None, grow_policy=None,
+             importance_type=None, interaction_constraints=None,
+             learning_rate=None, max_bin=None, max_cat_threshold=None,
+             max_cat_to_onehot=None, max_delta_step=None, max_depth=None,
+             max_leaves=None, min_child_weight=None, missing=nan,
+             monotone_constraints=None, multi_strategy=None, n_estimators=None,
+             n_jobs=None, num_parallel_tree=None, ...), 'model__learning_rate': 0.1, 'model__max_depth': 3, 'model__n_estimators': 100}"
+HistGradientBoostingRegressor,0.13421310316351684,28399.440982561042,0.6332920551300049,HistGradientBoostingRegressor(random_state=42),"{'model': HistGradientBoostingRegressor(random_state=42), 'model__learning_rate': 0.1, 'model__max_depth': 10, 'model__max_iter': 100}"
+HistGradientBoostingRegressor,0.134947176953695,28654.37924801414,1.1826071262359619,HistGradientBoostingRegressor(random_state=42),"{'model': HistGradientBoostingRegressor(random_state=42), 'model__learning_rate': 0.1, 'model__max_depth': None, 'model__max_iter': 100}"
+HistGradientBoostingRegressor,0.13508975258935096,29151.475077913714,1.103730821609497,HistGradientBoostingRegressor(random_state=42),"{'model': HistGradientBoostingRegressor(random_state=42), 'model__learning_rate': 0.1, 'model__max_depth': 10, 'model__max_iter': 200}"
+LGBMRegressor,0.13548593599480346,28713.579959905805,1.2129452228546143,LGBMRegressor(random_state=42),"{'model': LGBMRegressor(random_state=42), 'model__learning_rate': 0.1, 'model__n_estimators': 100, 'model__num_leaves': 31}"
+HistGradientBoostingRegressor,0.1361857141999244,29404.69680052494,1.6127730846405028,HistGradientBoostingRegressor(random_state=42),"{'model': HistGradientBoostingRegressor(random_state=42), 'model__learning_rate': 0.1, 'model__max_depth': None, 'model__max_iter': 200}"
+LGBMRegressor,0.13655384874368778,28797.246489640565,1.0413509368896485,LGBMRegressor(random_state=42),"{'model': LGBMRegressor(random_state=42), 'model__learning_rate': 0.1, 'model__n_estimators': 100, 'model__num_leaves': 63}"
+LGBMRegressor,0.13676860120000642,29448.196301767864,1.4486800193786622,LGBMRegressor(random_state=42),"{'model': LGBMRegressor(random_state=42), 'model__learning_rate': 0.1, 'model__n_estimators': 200, 'model__num_leaves': 31}"
+XGBRegressor,0.1371924102306366,29184.6046875,1.1473707675933837,"XGBRegressor(base_score=None, booster=None, callbacks=None,
+             colsample_bylevel=None, colsample_bynode=None,
+             colsample_bytree=None, device=None, early_stopping_rounds=None,
+             enable_categorical=False, eval_metric=None, feature_types=None,
+             feature_weights=None, gamma=None, grow_policy=None,
+             importance_type=None, interaction_constraints=None,
+             learning_rate=None, max_bin=None, max_cat_threshold=None,
+             max_cat_to_onehot=None, max_delta_step=None, max_depth=None,
+             max_leaves=None, min_child_weight=None, missing=nan,
+             monotone_constraints=None, multi_strategy=None, n_estimators=None,
+             n_jobs=None, num_parallel_tree=None, ...)","{'model': XGBRegressor(base_score=None, booster=None, callbacks=None,
+             colsample_bylevel=None, colsample_bynode=None,
+             colsample_bytree=None, device=None, early_stopping_rounds=None,
+             enable_categorical=False, eval_metric=None, feature_types=None,
+             feature_weights=None, gamma=None, grow_policy=None,
+             importance_type=None, interaction_constraints=None,
+             learning_rate=None, max_bin=None, max_cat_threshold=None,
+             max_cat_to_onehot=None, max_delta_step=None, max_depth=None,
+             max_leaves=None, min_child_weight=None, missing=nan,
+             monotone_constraints=None, multi_strategy=None, n_estimators=None,
+             n_jobs=None, num_parallel_tree=None, ...), 'model__learning_rate': 0.1, 'model__max_depth': 6, 'model__n_estimators': 200}"
+LGBMRegressor,0.13748356252156477,29497.808598533145,2.1211967945098875,LGBMRegressor(random_state=42),"{'model': LGBMRegressor(random_state=42), 'model__learning_rate': 0.1, 'model__n_estimators': 200, 'model__num_leaves': 63}"
+XGBRegressor,0.1377987653017044,29249.91015625,0.5939353466033935,"XGBRegressor(base_score=None, booster=None, callbacks=None,
+             colsample_bylevel=None, colsample_bynode=None,
+             colsample_bytree=None, device=None, early_stopping_rounds=None,
+             enable_categorical=False, eval_metric=None, feature_types=None,
+             feature_weights=None, gamma=None, grow_policy=None,
+             importance_type=None, interaction_constraints=None,
+             learning_rate=None, max_bin=None, max_cat_threshold=None,
+             max_cat_to_onehot=None, max_delta_step=None, max_depth=None,
+             max_leaves=None, min_child_weight=None, missing=nan,
+             monotone_constraints=None, multi_strategy=None, n_estimators=None,
+             n_jobs=None, num_parallel_tree=None, ...)","{'model': XGBRegressor(base_score=None, booster=None, callbacks=None,
+             colsample_bylevel=None, colsample_bynode=None,
+             colsample_bytree=None, device=None, early_stopping_rounds=None,
+             enable_categorical=False, eval_metric=None, feature_types=None,
+             feature_weights=None, gamma=None, grow_policy=None,
+             importance_type=None, interaction_constraints=None,
+             learning_rate=None, max_bin=None, max_cat_threshold=None,
+             max_cat_to_onehot=None, max_delta_step=None, max_depth=None,
+             max_leaves=None, min_child_weight=None, missing=nan,
+             monotone_constraints=None, multi_strategy=None, n_estimators=None,
+             n_jobs=None, num_parallel_tree=None, ...), 'model__learning_rate': 0.1, 'model__max_depth': 6, 'model__n_estimators': 100}"
+RandomForestRegressor,0.14695915565477172,29860.62087033189,5.232797908782959,RandomForestRegressor(random_state=42),"{'model': RandomForestRegressor(random_state=42), 'model__max_depth': None, 'model__min_samples_leaf': 1, 'model__n_estimators': 200}"
+RandomForestRegressor,0.1475912981558713,29756.48919635553,6.250037145614624,RandomForestRegressor(random_state=42),"{'model': RandomForestRegressor(random_state=42), 'model__max_depth': 10, 'model__min_samples_leaf': 1, 'model__n_estimators': 200}"
+RandomForestRegressor,0.14792344035770974,30302.034489552578,1.476535177230835,RandomForestRegressor(random_state=42),"{'model': RandomForestRegressor(random_state=42), 'model__max_depth': None, 'model__min_samples_leaf': 1, 'model__n_estimators': 50}"
+RandomForestRegressor,0.1479790760898245,30235.91595810118,2.611789417266846,RandomForestRegressor(random_state=42),"{'model': RandomForestRegressor(random_state=42), 'model__max_depth': None, 'model__min_samples_leaf': 1, 'model__n_estimators': 100}"
+RandomForestRegressor,0.14805384372850075,30074.770093781117,2.09432168006897,RandomForestRegressor(random_state=42),"{'model': RandomForestRegressor(random_state=42), 'model__max_depth': 10, 'model__min_samples_leaf': 1, 'model__n_estimators': 100}"
+RandomForestRegressor,0.1482518160149664,30144.13015777287,1.0769361019134522,RandomForestRegressor(random_state=42),"{'model': RandomForestRegressor(random_state=42), 'model__max_depth': 10, 'model__min_samples_leaf': 1, 'model__n_estimators': 50}"
+RandomForestRegressor,0.1500155593263121,30733.516427054652,3.3041707038879395,RandomForestRegressor(random_state=42),"{'model': RandomForestRegressor(random_state=42), 'model__max_depth': None, 'model__min_samples_leaf': 4, 'model__n_estimators': 200}"
+RandomForestRegressor,0.15020256911149293,30869.435315625346,1.658665657043457,RandomForestRegressor(random_state=42),"{'model': RandomForestRegressor(random_state=42), 'model__max_depth': None, 'model__min_samples_leaf': 4, 'model__n_estimators': 100}"
+RandomForestRegressor,0.15025926735248213,30744.279401209315,7.7100225448608395,RandomForestRegressor(random_state=42),"{'model': RandomForestRegressor(random_state=42), 'model__max_depth': 10, 'model__min_samples_leaf': 4, 'model__n_estimators': 200}"
+RandomForestRegressor,0.15043849734593717,30888.133095555968,4.301924085617065,RandomForestRegressor(random_state=42),"{'model': RandomForestRegressor(random_state=42), 'model__max_depth': 10, 'model__min_samples_leaf': 4, 'model__n_estimators': 100}"
+RandomForestRegressor,0.15070770599379485,30864.359660792757,0.8651934146881104,RandomForestRegressor(random_state=42),"{'model': RandomForestRegressor(random_state=42), 'model__max_depth': None, 'model__min_samples_leaf': 4, 'model__n_estimators': 50}"
+RandomForestRegressor,0.1509154343875115,30853.63398880923,2.2462215423583984,RandomForestRegressor(random_state=42),"{'model': RandomForestRegressor(random_state=42), 'model__max_depth': 10, 'model__min_samples_leaf': 4, 'model__n_estimators': 50}"
+LGBMRegressor,0.16176983676563927,32149.504831686958,4.039905214309693,LGBMRegressor(random_state=42),"{'model': LGBMRegressor(random_state=42), 'model__learning_rate': 0.01, 'model__n_estimators': 200, 'model__num_leaves': 63}"
+LGBMRegressor,0.16194389706461415,32128.67365150077,0.9165553092956543,LGBMRegressor(random_state=42),"{'model': LGBMRegressor(random_state=42), 'model__learning_rate': 0.01, 'model__n_estimators': 200, 'model__num_leaves': 31}"
+HistGradientBoostingRegressor,0.16208496426632543,31953.29851184113,3.1701894760131837,HistGradientBoostingRegressor(random_state=42),"{'model': HistGradientBoostingRegressor(random_state=42), 'model__learning_rate': 0.01, 'model__max_depth': None, 'model__max_iter': 200}"
+HistGradientBoostingRegressor,0.162106305949098,31962.081981057658,3.2062220096588137,HistGradientBoostingRegressor(random_state=42),"{'model': HistGradientBoostingRegressor(random_state=42), 'model__learning_rate': 0.01, 'model__max_depth': 10, 'model__max_iter': 200}"
+ElasticNet,0.17046526877665258,34945.83235097833,0.1157346248626709,ElasticNet(random_state=0),"{'model': ElasticNet(random_state=0), 'model__alpha': 0.01, 'model__l1_ratio': 0.1}"
+Lasso,0.1709270032190881,35285.37507937134,0.15652265548706054,Lasso(random_state=0),"{'model': Lasso(random_state=0), 'model__alpha': 0.0001}"
+Lasso,0.17092983361588154,35282.1088236015,0.17286930084228516,Lasso(random_state=0),"{'model': Lasso(random_state=0), 'model__alpha': 0.001}"
+Lasso,0.1709602779997658,35257.253113753744,0.14000778198242186,Lasso(random_state=0),"{'model': Lasso(random_state=0), 'model__alpha': 0.01}"
+LinearRegression,0.17096103049342345,35257.0977410277,0.07991447448730468,LinearRegression(),{'model': LinearRegression()}
+Ridge,0.17096359913082246,35256.13605666394,0.07418417930603027,Ridge(random_state=42),"{'model': Ridge(random_state=42), 'model__alpha': 0.01}"
+Ridge,0.17098508047079503,35247.76268476415,0.05655813217163086,Ridge(random_state=42),"{'model': Ridge(random_state=42), 'model__alpha': 0.1}"
+ElasticNet,0.17100402753980176,35038.09525807507,0.1339116096496582,ElasticNet(random_state=0),"{'model': ElasticNet(random_state=0), 'model__alpha': 0.01, 'model__l1_ratio': 0.5}"
+ElasticNet,0.17105371297956617,35218.322603951834,0.13119196891784668,ElasticNet(random_state=0),"{'model': ElasticNet(random_state=0), 'model__alpha': 0.001, 'model__l1_ratio': 0.5}"
+ElasticNet,0.17109851072342203,35192.60358248106,0.1318117141723633,ElasticNet(random_state=0),"{'model': ElasticNet(random_state=0), 'model__alpha': 0.001, 'model__l1_ratio': 0.1}"
+Ridge,0.17111097675087522,35182.37858000745,0.06563296318054199,Ridge(random_state=42),"{'model': Ridge(random_state=42), 'model__alpha': 1.0}"
+XGBRegressor,0.1714792788028717,35181.589453125,1.5139042854309082,"XGBRegressor(base_score=None, booster=None, callbacks=None,
+             colsample_bylevel=None, colsample_bynode=None,
+             colsample_bytree=None, device=None, early_stopping_rounds=None,
+             enable_categorical=False, eval_metric=None, feature_types=None,
+             feature_weights=None, gamma=None, grow_policy=None,
+             importance_type=None, interaction_constraints=None,
+             learning_rate=None, max_bin=None, max_cat_threshold=None,
+             max_cat_to_onehot=None, max_delta_step=None, max_depth=None,
+             max_leaves=None, min_child_weight=None, missing=nan,
+             monotone_constraints=None, multi_strategy=None, n_estimators=None,
+             n_jobs=None, num_parallel_tree=None, ...)","{'model': XGBRegressor(base_score=None, booster=None, callbacks=None,
+             colsample_bylevel=None, colsample_bynode=None,
+             colsample_bytree=None, device=None, early_stopping_rounds=None,
+             enable_categorical=False, eval_metric=None, feature_types=None,
+             feature_weights=None, gamma=None, grow_policy=None,
+             importance_type=None, interaction_constraints=None,
+             learning_rate=None, max_bin=None, max_cat_threshold=None,
+             max_cat_to_onehot=None, max_delta_step=None, max_depth=None,
+             max_leaves=None, min_child_weight=None, missing=nan,
+             monotone_constraints=None, multi_strategy=None, n_estimators=None,
+             n_jobs=None, num_parallel_tree=None, ...), 'model__learning_rate': 0.01, 'model__max_depth': 6, 'model__n_estimators': 200}"
+XGBRegressor,0.18738500773906708,35524.49375,0.5580719470977783,"XGBRegressor(base_score=None, booster=None, callbacks=None,
+             colsample_bylevel=None, colsample_bynode=None,
+             colsample_bytree=None, device=None, early_stopping_rounds=None,
+             enable_categorical=False, eval_metric=None, feature_types=None,
+             feature_weights=None, gamma=None, grow_policy=None,
+             importance_type=None, interaction_constraints=None,
+             learning_rate=None, max_bin=None, max_cat_threshold=None,
+             max_cat_to_onehot=None, max_delta_step=None, max_depth=None,
+             max_leaves=None, min_child_weight=None, missing=nan,
+             monotone_constraints=None, multi_strategy=None, n_estimators=None,
+             n_jobs=None, num_parallel_tree=None, ...)","{'model': XGBRegressor(base_score=None, booster=None, callbacks=None,
+             colsample_bylevel=None, colsample_bynode=None,
+             colsample_bytree=None, device=None, early_stopping_rounds=None,
+             enable_categorical=False, eval_metric=None, feature_types=None,
+             feature_weights=None, gamma=None, grow_policy=None,
+             importance_type=None, interaction_constraints=None,
+             learning_rate=None, max_bin=None, max_cat_threshold=None,
+             max_cat_to_onehot=None, max_delta_step=None, max_depth=None,
+             max_leaves=None, min_child_weight=None, missing=nan,
+             monotone_constraints=None, multi_strategy=None, n_estimators=None,
+             n_jobs=None, num_parallel_tree=None, ...), 'model__learning_rate': 0.01, 'model__max_depth': 3, 'model__n_estimators': 200}"
+KNeighborsRegressor,0.19395163795090725,40532.19597948513,0.05980076789855957,KNeighborsRegressor(),"{'model': KNeighborsRegressor(), 'model__n_neighbors': 5, 'model__weights': 'distance'}"
+KNeighborsRegressor,0.19492670026525494,40672.77295614102,0.05156145095825195,KNeighborsRegressor(),"{'model': KNeighborsRegressor(), 'model__n_neighbors': 5, 'model__weights': 'uniform'}"
+KNeighborsRegressor,0.20352786376425702,42231.477580376144,0.04860639572143555,KNeighborsRegressor(),"{'model': KNeighborsRegressor(), 'model__n_neighbors': 3, 'model__weights': 'distance'}"
+KNeighborsRegressor,0.2042120501175463,42299.3592296849,0.05503611564636231,KNeighborsRegressor(),"{'model': KNeighborsRegressor(), 'model__n_neighbors': 3, 'model__weights': 'uniform'}"
+LGBMRegressor,0.219686236437788,42438.0002532125,0.515172004699707,LGBMRegressor(random_state=42),"{'model': LGBMRegressor(random_state=42), 'model__learning_rate': 0.01, 'model__n_estimators': 100, 'model__num_leaves': 63}"
+HistGradientBoostingRegressor,0.22003151230681656,42242.477188222445,1.1772625923156739,HistGradientBoostingRegressor(random_state=42),"{'model': HistGradientBoostingRegressor(random_state=42), 'model__learning_rate': 0.01, 'model__max_depth': 10, 'model__max_iter': 100}"
+HistGradientBoostingRegressor,0.22003151230681656,42242.477188222445,1.9999395847320556,HistGradientBoostingRegressor(random_state=42),"{'model': HistGradientBoostingRegressor(random_state=42), 'model__learning_rate': 0.01, 'model__max_depth': None, 'model__max_iter': 100}"
+LGBMRegressor,0.22004263230699278,42467.43377939268,1.3325409889221191,LGBMRegressor(random_state=42),"{'model': LGBMRegressor(random_state=42), 'model__learning_rate': 0.01, 'model__n_estimators': 100, 'model__num_leaves': 31}"
+XGBRegressor,0.2287300318479538,45193.45625,0.9405635833740235,"XGBRegressor(base_score=None, booster=None, callbacks=None,
+             colsample_bylevel=None, colsample_bynode=None,
+             colsample_bytree=None, device=None, early_stopping_rounds=None,
+             enable_categorical=False, eval_metric=None, feature_types=None,
+             feature_weights=None, gamma=None, grow_policy=None,
+             importance_type=None, interaction_constraints=None,
+             learning_rate=None, max_bin=None, max_cat_threshold=None,
+             max_cat_to_onehot=None, max_delta_step=None, max_depth=None,
+             max_leaves=None, min_child_weight=None, missing=nan,
+             monotone_constraints=None, multi_strategy=None, n_estimators=None,
+             n_jobs=None, num_parallel_tree=None, ...)","{'model': XGBRegressor(base_score=None, booster=None, callbacks=None,
+             colsample_bylevel=None, colsample_bynode=None,
+             colsample_bytree=None, device=None, early_stopping_rounds=None,
+             enable_categorical=False, eval_metric=None, feature_types=None,
+             feature_weights=None, gamma=None, grow_policy=None,
+             importance_type=None, interaction_constraints=None,
+             learning_rate=None, max_bin=None, max_cat_threshold=None,
+             max_cat_to_onehot=None, max_delta_step=None, max_depth=None,
+             max_leaves=None, min_child_weight=None, missing=nan,
+             monotone_constraints=None, multi_strategy=None, n_estimators=None,
+             n_jobs=None, num_parallel_tree=None, ...), 'model__learning_rate': 0.01, 'model__max_depth': 6, 'model__n_estimators': 100}"
+XGBRegressor,0.24501453936100007,46183.09453125,0.3735686779022217,"XGBRegressor(base_score=None, booster=None, callbacks=None,
+             colsample_bylevel=None, colsample_bynode=None,
+             colsample_bytree=None, device=None, early_stopping_rounds=None,
+             enable_categorical=False, eval_metric=None, feature_types=None,
+             feature_weights=None, gamma=None, grow_policy=None,
+             importance_type=None, interaction_constraints=None,
+             learning_rate=None, max_bin=None, max_cat_threshold=None,
+             max_cat_to_onehot=None, max_delta_step=None, max_depth=None,
+             max_leaves=None, min_child_weight=None, missing=nan,
+             monotone_constraints=None, multi_strategy=None, n_estimators=None,
+             n_jobs=None, num_parallel_tree=None, ...)","{'model': XGBRegressor(base_score=None, booster=None, callbacks=None,
+             colsample_bylevel=None, colsample_bynode=None,
+             colsample_bytree=None, device=None, early_stopping_rounds=None,
+             enable_categorical=False, eval_metric=None, feature_types=None,
+             feature_weights=None, gamma=None, grow_policy=None,
+             importance_type=None, interaction_constraints=None,
+             learning_rate=None, max_bin=None, max_cat_threshold=None,
+             max_cat_to_onehot=None, max_delta_step=None, max_depth=None,
+             max_leaves=None, min_child_weight=None, missing=nan,
+             monotone_constraints=None, multi_strategy=None, n_estimators=None,
+             n_jobs=None, num_parallel_tree=None, ...), 'model__learning_rate': 0.01, 'model__max_depth': 3, 'model__n_estimators': 100}"
