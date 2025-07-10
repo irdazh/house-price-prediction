@@ -52,8 +52,14 @@ Inspect `notebooks/02_modeling_basic.ipynb` and `notebooks/03_modeling_advanced.
 - What model do I choose? I guess I should go with the second tuning (well, let's make that waste of time a bit more useful.)
 
 ### Final Model
-For the final model evaluation, I will do it on colab. Yeah, my lp's suck. 
-- 
+For the final model evaluation, I will do it on colab. Yeah, my lp's suck. You can load the final model in `models/final_model.joblib`
+- Model: XGBRegressor
+- MSLE: 0.138
+- RMSE: 25,612 (~15.7% error, based on the median price)
+    ![Feat Imp](outputs/feat_imp.png)  
+- Top 5 Features: OverallQual, GarageCars, ExterQual, GrLivArea, and GarageType (based on tree's feature importance)
+
+Well, I want to explore something more using SHAP things in colab tho. Ehhe. For now, it's done. 
 
 ## Project Structure
 - `notebooks/`: EDA & modeling notebooks, contain colab's nb that shouldn't be run
@@ -89,8 +95,8 @@ Daud M. Azhari
 
 ## Status
 Start from 07 July 2025
-- Done: Initial Commit
-- In Progress: EDA, Cleaning, \ldots
+- Done: Initial Commit, EDA, Preprocess, Modeling
+- In Progress: Final Dashboard & Deployment
 - Final Dashboard + Deployment by **Week 2**
 
 ### Another Tutorial (Author's note: ignore it)
