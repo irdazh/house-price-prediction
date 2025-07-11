@@ -93,11 +93,11 @@ streamlit run app/app.py
 ## Web App
 Follow this link: https://irdazh-house-price-prediction.streamlit.app/   
 ![Input](assets/input.jpg)  
-*Input Page*
+*Input Page*   
 ![Predict](assets/predict.jpg)  
-*Prediction Result*
+*Prediction Result*   
 ![Viz](assets/viz.jpg)  
-*Plot for Visualization*
+*Plot for Visualization*   
 
 ## About Me
 This is a part of my data science portfolio -- 
