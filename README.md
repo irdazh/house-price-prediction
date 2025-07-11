@@ -100,7 +100,7 @@ Follow this link: https://irdazh-house-price-prediction.streamlit.app/
 ![Predict](assets/predict.jpg)  
 *Prediction Result*
 
-[Vizs](assets/viz.jpg)  
+![Vizs](assets/viz.jpg)  
 *Plot for Visualization*   
 
 ## About Me
