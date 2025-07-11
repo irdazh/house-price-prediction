@@ -1,16 +1,17 @@
-# (Boring) House Price Prediciton 
-Predict housing price using regression models and build an interactive dashboard with Streamlit. 
+# (Not So Boring) House Price Prediction 
+A web-based ML app that predicts house prices based on user-selected features. 
+Built using Streamlit, scikit-learn, xgboost, and pandas. It's kinda fun tbh. 
 
 ## Project Overview
-This project uses the **Ames Housing Dateset** from Kaggle Competition to build a machine learnig model that predicts home prices based on various features like square footage, number of rooms, and location.
+This project uses the **Ames Housing Dateset** from Kaggle Competition to build a machine learning model that predicts home prices based on various features like house's quality, number of rooms, and location.
 The final result is deployed in a dashboard using **Streamlit**.
 
-## Goals
+## ML Lifecycle
 - Explore data and visualize key patterns
 - Clean and preprocess the dataset
-- Train multiple models and evaluate performance
+- Train multiple models (linear, tree, and K-Nearest) and evaluate performance
 - Tune and select the best model
-- Create an interactive dashboard for prediction
+- Create an interactive Web App using Streamlit for prediction
 
 ## Dataset
 - Source: [Kaggle Competition](https://www.kaggle.com/c/house-prices-advanced-regression-techniques)
@@ -20,10 +21,10 @@ The final result is deployed in a dashboard using **Streamlit**.
 
 ## Tech Stack
 - Language: Python
-- Libraries: pandas, numpy, seaborn, matplotlib, scikit-learn
+- Libraries: pandas, numpy, seaborn, matplotlib, scikit-learn, xgboost, lightgbm, (optional: shap)
 - Dashboard: Streamlit
 - Version Control: Git, GitHub
-- Deployment: Streamlit Cloud (tentative)
+- Deployment: Streamlit Cloud
 
 ## Key Results
 ### Exploratory Data Analysis (EDA)
@@ -65,7 +66,7 @@ Well, I want to explore something more using SHAP things in colab tho. Ehhe. For
 ![Ind Shapval](outputs/individual_shap.jpg)
 
 ## Project Structure
-- `notebooks/`: EDA & modeling notebooks, contain colab's nb that shouldn't be run
+- `notebooks/`: EDA & modeling notebooks, contains colab's nb that shouldn't be run
 - `models/`: Several useless models, final trained model (`joblib`) and feature list (`json`)
 - `data/`: Raw and cleaned data files
 - `outputs/`: Generated charts and figures
@@ -88,19 +89,22 @@ jupyter notebook
 # Run the streamlit app
 streamlit run app/app.py
 ```
-## Sample Dashboard
 
-## Author
-Daud M. Azhari   
+## Web App
+Follow this link:
+![Input](assets/input.jpg)  
+*Input Page*
+![Predict](assets/predict.jpg)  
+*Prediction Result*
+![Viz](assets/viz.jpg)  
+*Plot for Visualization*
+
+## About Me
+This is a part of my data science portfolio -- 
+built during my free time as a jobless loafer. More projects and anything else, go:
 [GitHub](https://github.com/irdazh) |
 [Kaggle](https://www.kaggle.com/irdazh) |
 [LinkedIn](https:///www.linkedin.com/in/daud-ma)
-
-## Status
-Start from 07 July 2025
-- Done: Initial Commit, EDA, Preprocess, Modeling
-- In Progress: Final Dashboard & Deployment
-- Final Dashboard + Deployment by **Week 2**
 
 ### Another Tutorial (Author's note: ignore it)
 ```bash

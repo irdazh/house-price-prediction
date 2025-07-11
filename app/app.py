@@ -78,7 +78,7 @@ with st.expander('Model Info'):
                 ''')
     
 
-st.subheader('Predicted Sale Price:')
+# st.subheader('Predicted Sale Price:')
 # st.success(f'**${pred:,.1f}**')
 
 # Gauge chart? Fancy predicted price
@@ -90,7 +90,7 @@ fig = go.Figure(go.Indicator(
     title = {'text': 'Predicted House Price'},
     gauge = {
         'axis': {'range': [0, 500000]},
-        'bar': {'color': 'blue'},
+        'bar': {'color': 'red'},
         'steps': [
             {'range': [0,200000], 'color': 'lightgray'},
             {'range': [200000, 400000], 'color': 'gray'}
@@ -177,10 +177,6 @@ with col2:
     st.pyplot(fig3)
     st.markdown("- There's a **positive correlation** between living area and house price.")
 
-
-
-
-    
 
 # Footer
 st.markdown('---')
