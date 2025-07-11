@@ -59,7 +59,10 @@ For the final model evaluation, I will do it on colab. Yeah, my lp's suck. You c
     ![Feat Imp](outputs/feat_imp.png)  
 - Top 5 Features: OverallQual, GarageCars, ExterQual, GrLivArea, and GarageType (based on tree's feature importance)
 
-Well, I want to explore something more using SHAP things in colab tho. Ehhe. For now, it's done. 
+Well, I want to explore something more using SHAP things in colab tho. Ehhe. For now, it's done.
+- Based on SHAP feature importance, we instead have OverallQual, GrLivArea, TotalBsmtSF, BsmtFinSF1, and GarageCars as our top 5 features, which affected price positively.
+- We could also take a look at individual value, and inspect how each feature affect the final prediction, like this one below, where its predicted price is around 14k, lower than base value (mean house price: ~18k), which is influenced positively by: OverallCond 8 and Exteriro1st 0 (AsbShng); while negatively influenced by: OverallQual 5, YearBuilt 1908, GrLivArea 1252, and TotalBsmtSF 504
+![Ind Shapval](outputs/individual_shap.jpg)
 
 ## Project Structure
 - `notebooks/`: EDA & modeling notebooks, contain colab's nb that shouldn't be run
