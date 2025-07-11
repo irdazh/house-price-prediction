@@ -48,9 +48,9 @@ user_inputs = {
     'YearBuilt': st.sidebar.slider('Year Built', 1900, 2010, value=1945),
     'GrLivArea': st.sidebar.number_input('Above Ground Living Area (sq ft)', 500, 5000, value=1500),
     'TotalBsmtSF': st.sidebar.number_input('Basement Area (sq ft)', 0, 3000, value=800),
-    'ExterQual': categorical_input('Exterior Quality', exter_qual_options),
+    # 'ExterQual': categorical_input('Exterior Quality', exter_qual_options),
     'GarageCars': st.sidebar.selectbox('Garage Capacity (cars)', options=[0, 1, 2, 3, 4]),
-    'GarageType': categorical_input('GarageType', garage_type_options),
+    # 'GarageType': categorical_input('GarageType', garage_type_options),
 
 }
 
@@ -63,7 +63,7 @@ for col in cols:
 input_df = pd.DataFrame([user_inputs], columns=cols)
 
 # Predict the house price
-pred= model.predict(input_df)[0]
+pred = model.predict(input_df)[0]
 
 
 
@@ -144,28 +144,28 @@ st.pyplot(fig1)
 
 
 # Another barplot for user
-exter = user_inputs['ExterQual']
-avg_exter_price = train_data[train_data['ExterQual'] == exter]["SalePrice"].mean()
+exter = user_inputs['GarageCars']
+avg_exter_price = train_data[train_data['GarageCars'] == exter]["SalePrice"].mean()
 
 fig4, ax4 = plt.subplots()
-bars = ax4.bar(['Your Price', 'Avg ExterQual Price'],
+bars = ax4.bar(['Your Price', 'Avg Garage Cars Price'],
                [pred, avg_exter_price], color = ['skyblue', 'tomato'])
-ax4.set_title(f'Price Comparison in {exter} Quality')
+ax4.set_title(f'Price Comparison in {exter} Garage Cars')
 st.pyplot(fig4)
 
 # violinplot, 
 col1, col2 = st.columns(2)
 
 fig2, ax2 = plt.subplots()
-sns.violinplot(x="ExterQual", y='SalePrice', hue='ExterQual', palette='Set2', data=train_data, ax=ax2)
-ax2.set_xlabel('Exterior Quality')
+sns.violinplot(x="GarageCars", y='SalePrice', hue='GarageCars', palette='Set2', data=train_data, ax=ax2)
+ax2.set_xlabel('Garage Cars')
 ax2.set_ylabel('House Price')
 
 with col1: 
-    st.subheader('Sale Price by Ext. Quality')
+    st.subheader('Sale Price by Garage Cars')
     st.pyplot(fig2)
-    st.markdown("- Price varies quite significantly across exterior quality;  " \
-"'excellent' quality generally have the highest median prices.")
+    st.markdown("- Price varies quite significantly across number of cars a garage can keep;  " \
+"numbers of cars equal to 3 generally have the highest median prices.")
 
 # scatterplot GrLivArea
 fig3, ax3 = plt.subplots()
