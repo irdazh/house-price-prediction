@@ -48,9 +48,9 @@ user_inputs = {
     'YearBuilt': st.sidebar.slider('Year Built', 1900, 2010, value=1945),
     'GrLivArea': st.sidebar.number_input('Above Ground Living Area (sq ft)', 500, 5000, value=1500),
     'TotalBsmtSF': st.sidebar.number_input('Basement Area (sq ft)', 0, 3000, value=800),
-    # 'ExterQual': categorical_input('Exterior Quality', exter_qual_options),
+    'ExterQual': categorical_input('Exterior Quality', exter_qual_options),
     'GarageCars': st.sidebar.selectbox('Garage Capacity (cars)', options=[0, 1, 2, 3, 4]),
-    # 'GarageType': categorical_input('GarageType', garage_type_options),
+    'GarageType': categorical_input('GarageType', garage_type_options),
 
 }
 
