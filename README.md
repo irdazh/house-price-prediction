@@ -98,9 +98,9 @@ Follow this link: https://irdazh-house-price-prediction.streamlit.app/
 *Input Page*   
 
 ![Predict](assets/predict.jpg)  
-*Prediction Result*   
+*Prediction Result*
 
-![Vizs](assets/viz.jpg)  
+[Vizs](assets/viz.jpg)  
 *Plot for Visualization*   
 
 ## About Me
