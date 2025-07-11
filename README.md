@@ -91,7 +91,7 @@ streamlit run app/app.py
 ```
 
 ## Web App
-Follow this link:
+Follow this link: https://irdazh-house-price-prediction.streamlit.app/   
 ![Input](assets/input.jpg)  
 *Input Page*
 ![Predict](assets/predict.jpg)  
